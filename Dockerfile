@@ -33,3 +33,4 @@ RUN /entrypoint.sh version
 ENV UMASK=022 RUN_ARIA2=${INSTALL_ARIA2}
 EXPOSE 5244 5245
 CMD [ "/entrypoint.sh" ]
+
